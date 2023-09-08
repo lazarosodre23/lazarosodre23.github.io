@@ -1,0 +1,497 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.button {
+  width: 150px;
+  border-radius: 5px;
+  padding: 12px;
+  margin: 20px 10px;
+  border: none;
+  background-color: #EA485B;
+  color: white;
+  font-weight: 400;
+  font-size: .9rem;
+}
+
+.button:hover {
+  background-color: rgb(161, 31, 31);
+}
+
+.button2 {
+  width: 150px;
+  border-radius: 5px;
+  padding: 12px;
+  margin: 20px 10px;
+  border: none;
+  background-color: #F8F9FA;
+  color: #EA485B;
+  font-weight: 400;
+}
+
+.button2:hover {
+  background-color: #e6e6e6;
+}
+
+/* ------- Seção I -------- */
+#header {
+  width: 100%;
+  height: 15vh;
+}
+
+/*---- Menu ---- */
+
+#menu {
+  margin: 0% 10%;
+  width: 80%;
+}
+
+
+#menu a {
+  width: 50%;
+  font-size: .8rem;
+
+}
+
+#menu img {
+  width: 40%;
+  padding-left: 10px;
+}
+
+
+#menu div ul li a {
+  width: 100%;
+  padding: 10px 10px 10px 10px;
+}
+
+#menu div ul li a:hover {
+  font-weight: bold;
+  color: #EA485B;
+}
+
+
+/* ------- Seção Apresentacao -------- */
+
+#apresentacao {
+  width: 80%;
+  padding-top: 60px;
+  margin: 0 10%;
+  margin-top: -5%;
+  height: auto;
+  background-color: #F8F9FA;
+  display: flex;
+}
+
+
+#apresentacaoTexto {
+  width: 65%;
+  padding: 10% 8%;
+}
+
+#apresentacaoTexto h1 {
+  font-size: 3em;
+  padding: 20px 0;
+}
+
+#apresentacaoTexto h3 {
+  font-size: 1.2em;
+  margin-bottom: 25px;
+}
+
+.button:hover {
+  background-color: rgb(161, 31, 31);
+
+}
+
+#apresentacaoImg {
+  width: 80%;
+  width: auto;
+  padding-top: 90px;
+
+}
+
+#img2 {
+  display: none;
+  width: 100%;
+  width: auto;
+  padding-top: 90px;
+
+}
+
+#apresentacaoImg img {
+  padding-top: 10px;
+  width: 80%;
+}
+
+
+/* ------- Seção Sobre Mim -------- */
+
+#sobreMim {
+  padding: 5% 0;
+  width: 80%;
+  margin: 0 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F8F9FA;
+}
+
+#sobreMim div:first-child {
+  display: flex;
+  padding: 2% 0 2% 0;
+}
+
+#sobreMimImg {
+  width: 100%;
+
+}
+
+#sobreMimImg img {
+  width: 62%;
+  margin: 10%;
+}
+
+
+#sobreMimTexto {
+  width: 100%;
+  padding: 7%;
+
+}
+
+#sobreMimTexto h2 {
+  font-size: 1.4rem;
+  padding: 5px 0;
+
+}
+
+#sobreMimTexto p {
+  font-size: 1rem;
+  font-weight: 300;
+
+}
+
+/* ------- Seção Serviços -------- */
+
+#servicos {
+  width: 80%;
+  background-color: #EA485B;
+  margin: 0 10%;
+  padding: 3% 0;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.servicosCards {
+  display: flex;
+  justify-content: center;
+
+}
+
+.servicosCards div {
+  border: #EA485B solid 1px;
+  margin: 5px;
+  background-color: #F8F9FA;
+  border-radius: 5px;
+}
+
+.servicosCards h4 {
+  font-size: 1rem;
+  padding: 0 8%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.servicosCards p {
+  font-size: .9rem;
+  text-align: justify;
+  padding: 8%;
+  font-weight: 300;
+}
+
+.imgServicos {
+  width: 80%;
+  margin: 5%;
+}
+
+
+/* ------- Seção Contatos -------- */
+
+#contato {
+  width: 80%;
+  height: 100%;
+  background-color: #F8F9FA;
+  margin: 0 10%;
+  padding: 10% 0 5% 0;
+  border-radius: 5px;
+
+}
+
+#contato div {
+  display: flex;
+  justify-content: center;
+}
+
+#contato p {
+  display: flex;
+  justify-content: center;
+  padding-top: 1%;
+  color: #EA485B;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+#contatoImg {
+  width: 50%;
+}
+
+#contatoImg img {
+  width: 90%;
+  margin: 0;
+}
+
+#contatoInformacoes {
+  width: 50%;
+  height: 100%;
+}
+
+#contatoInformacoes form {
+  padding: 5% 0;
+  font: 200;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: .9rem;
+}
+
+#contatoInformacoes form,
+label,
+input,
+textarea {
+  width: 100%;
+  padding: 5px;
+}
+
+
+#contatoInformacoes input,
+textarea {
+  width: 90%;
+  border-radius: 3px;
+  border: none;
+  background-color: #dddddd;
+  font-size: .8rem;
+  font-weight: 200;
+
+}
+
+
+#contatoInformacoesSocias a {
+  width: 5%;
+  display: flex;
+  justify-content: center;
+
+}
+
+#contatoInformacoesSocias img{
+  width: 90%;
+  opacity: 0.7;
+}
+
+#contatoInformacoesSocias img:hover{
+  opacity:1;
+}
+
+
+/* ================= Resposividade ============== */
+
+@media screen and (max-width: 995px) {
+  #menu img {
+    display: none;
+  }
+
+  #img2  {
+    display: flex;
+    width: 50%;
+    padding: 4% 0 8% 0;
+    margin: 0 15%;
+  }
+
+  #apresentacaoImg{
+    margin: 25% 0;
+  }
+  
+  #sobreMim div:first-child {
+    display: block;
+    padding: 2% 0 2% 0;
+  }
+
+  #sobreMimImg img {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    margin: 0 auto;
+  }
+
+  #sobreMimTexto {
+    margin: 0 10%;
+    width: 70%;
+    padding: 7%;
+  }
+
+}
+
+@media screen and (max-width: 850px) {
+  /* ------- Seção Serviços -------- */
+
+  .servicosCards {
+    border-radius: 5%;
+    width: 70%;
+    display: block;
+
+  }
+
+  .servicosCards div {
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
+
+@media screen and (max-width: 700px) {
+
+
+  #apresentacao{
+    margin-top: -15%;
+    display: flex;
+  }
+
+  #apresentacaoTexto {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #apresentacaoTexto h1 {
+    font-size: 2.3rem;
+    text-align: center;
+  }
+  
+  #apresentacaoTexto h3 {
+    text-align: center;
+  }
+
+  #img2  {
+    display: block;
+    width: 45%;
+    padding: 4% 0 8% 0;
+  }
+
+
+  #img1 {
+    display: none;
+    width: 60%;
+
+  }
+
+  .servicosCards {
+    border-radius: 5%;
+    width: 80%;
+    display: block;
+
+  }
+
+  #contatoApresentacao {
+    width: 80%;
+    margin: 0 10%;
+    display: block;
+    align-items: center;
+    flex-direction: column;
+
+  }
+
+  #contato div:first-child {
+    width: 80%;
+    margin: 0 10%;
+    display: flex;
+    align-items: center;
+
+  }
+
+  #contatoImg {
+    width: 80%;
+    flex-direction: column;
+  }
+
+  #contatoInformacoesTextos {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+  }
+
+  #contatoInformacoes {
+    width: 80%;
+  }
+
+  #contatoInformacoes form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: -2px;
+    margin: 0;
+  }
+
+  #contatoInformacoes form input, textarea {
+    width: 100%;
+
+  }
+
+  #contatoInformacoesSocias img {
+    width: 10%;
+    display: block;
+  }
+
+  
+@media screen and (max-width: 400px) {
+  #menu img {
+    width: 80%;
+    margin-left: 80%;
+  }
+  
+
+  #apresentacaoTexto h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+  }
+  
+  #apresentacaoTexto h3 {
+    text-align: center;   
+    font-size: .9em;
+  }
+
+  #sobreMimTexto p{
+    text-align: center;
+
+  }
+
+
+  #contato p {
+    text-align: center;
+  }
+
+  .button, .button2 {
+    width: 100px;
+    padding: 5px;
+    font-weight: 200;
+    font-size: .6rem;
+  }
+
+
+}
